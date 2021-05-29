@@ -1,0 +1,21 @@
+{
+  "name": "proyectofinal",
+  "version": "1.0.0",
+  "description": "Proyecto Final",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Maité Lisbeth Mercedes Valentín <maitechan58@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "nodemailer": "^6.6.1"
+  }
+}
